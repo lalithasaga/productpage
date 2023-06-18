@@ -1,0 +1,38 @@
+.product-page {
+    text-align: center;
+  }
+  
+  .image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .image-gallery img {
+    max-width: 200px;
+    height: auto;
+  }
+  
+  .review-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .review-list li {
+    margin-bottom: 10px;
+  }
+  
+  .review-list li div {
+    margin-top: 5px;
+  }
+  
+  .loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    font-size: 20px;
+    color: gray;
+  }
+  
